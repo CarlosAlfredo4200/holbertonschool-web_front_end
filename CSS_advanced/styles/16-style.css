@@ -475,3 +475,8 @@ a {
     color: #D73953;
   }
   
+.container{
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+}
