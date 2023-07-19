@@ -586,6 +586,17 @@ ul.row{
 }
 
 /* --- row --- */
+/* El propósito principal de este clearfix es solucionar problemas relacionados 
+con el colapso de contenedores y de elementos flotantes dentro de un diseño. 
+Cuando elementos hijos de un contenedor flotan, el contenedor padre puede no 
+tener una altura adecuada para contenerlos, lo que puede llevar a que el 
+contenido posterior se superponga o se muestre incorrectamente.
+
+El clearfix resuelve esto creando un "elemento fantasma" (usando content: "") 
+después del contenedor con la propiedad display: table, lo que causa que el 
+contenedor se expanda para abarcar a sus elementos flotantes internos. Luego,
+clear: both asegura que no haya elementos flotantes en ninguna dirección alrededor 
+del contenedor, lo que evita que elementos flotantes se superpongan en los márgenes del contenedor. */
 
 .row::after {
     content: "";
