@@ -630,3 +630,18 @@ Esto se logra mediante la siguiente regla CSS: */
     --section-title-color: var(--color-white);
     background-color: var(--color-black);
   }
+
+
+  /* --- footer-address ---  */
+
+  .footer-address{
+    color: var(--text-color);
+  }
+
+  .social-link{
+    display: block;
+  }
+
+  .social-link svg{
+    color: var(--text-color);
+  }
