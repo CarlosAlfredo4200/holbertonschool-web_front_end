@@ -519,8 +519,8 @@
         float: right;
     }
     
-    .nav{
-        margin: 0;
+.nav{
+    margin: 0;
     padding: 0;
     text-align: center;
     list-style: none;
@@ -546,11 +546,11 @@
 
 /* --- ul --- */
 
-ul .row{
+ul.row{
     margin: 0;
     padding: 0;
     list-style: none;
-}
+  }
 
 .col-1-3{
     width: 33.33%;
