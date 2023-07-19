@@ -565,6 +565,7 @@
 }
 
 /* --- footer --- */
+
 .footer-copyright{
     margin: 0;
     font-size: var(--font-size-small);
@@ -580,6 +581,6 @@
   padding: var(--footer-padding);
 }
 
-.footer .ul{
+.footer ul{
     text-align: right;
 }
