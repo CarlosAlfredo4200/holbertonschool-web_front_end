@@ -642,6 +642,12 @@ Esto se logra mediante la siguiente regla CSS: */
     display: block;
   }
 
-  .social-link svg{
+/* 
+  --- El combinador secundario ( >) se coloca entre dos selectores
+  de CSS. Coincide solo con los elementos coincidentes con el
+  segundo selector que son los hijos directos de los elementos
+  coincidentes con el primero.--- */
+
+  .social-link > svg{
     fill: var(--text-color);
   }
