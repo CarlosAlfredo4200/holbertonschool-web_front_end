@@ -723,8 +723,11 @@ Esto se logra mediante la siguiente regla CSS: */
   }
   
   .button:hover{
-    transition: color var(--transition-duration) var(--transition-cubic-bezier),
-              background-color var(--transition-duration) var(--transition-cubic-bezier);
+    color: var(--button-hover-color);
+    text-decoration: var(--button-hover-text-decoration);
+    background: var(--button-hover-background);
+    transition-duration: var(--transition-duration);
+    transition-property: color, background-color;
   }
 
 
